@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
+            Snackbar.make(view, getString(R.string.action_label), Snackbar.LENGTH_LONG)
+                    .setAction(getString(R.string.action_hint), null).show()
         }
     }
 
