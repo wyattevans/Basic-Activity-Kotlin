@@ -8,6 +8,7 @@ import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+    private val TAG = this::class.java.simpleName
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         fab.setOnClickListener { view ->
             Snackbar.make(view, getString(R.string.action_label), Snackbar.LENGTH_LONG)
-                    .setAction(getString(R.string.action_hint), null).show()
+                .setAction(getString(R.string.action_hint), null).show()
         }
     }
 

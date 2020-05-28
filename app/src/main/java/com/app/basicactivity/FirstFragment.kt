@@ -9,10 +9,11 @@ import android.widget.Button
 import androidx.navigation.fragment.findNavController
 
 class FirstFragment : Fragment() {
+    private val TAG = this::class.java.simpleName
 
     override fun onCreateView(
-            inflater: LayoutInflater, container: ViewGroup?,
-            savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragment_first, container, false)
     }
