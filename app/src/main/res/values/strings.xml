@@ -12,4 +12,5 @@
     <string name="action_label">Replace with your own action</string>
     <string name="action_hint">Action</string>
     <string name="next_button_label">Next button clicked.</string>
+    <string name="previous_button_label">Previous button clicked.</string>
 </resources>

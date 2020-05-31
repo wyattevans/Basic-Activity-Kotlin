@@ -24,7 +24,7 @@ class SecondFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         view.findViewById<Button>(R.id.button_second).setOnClickListener {
-            Log.d(TAG, "Previous button clicked.")
+            Log.d(TAG, getString(R.string.previous_button_label))
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
         }
     }
