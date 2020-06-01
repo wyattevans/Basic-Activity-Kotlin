@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.d(TAG, "Main Activity loaded.")
+        Log.d(TAG, getString(R.string.main_activity_loaded))
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
