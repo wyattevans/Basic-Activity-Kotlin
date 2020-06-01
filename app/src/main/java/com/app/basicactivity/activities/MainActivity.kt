@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
+        Log.d(TAG, "Create options menu loaded.")
         return true
     }
 
