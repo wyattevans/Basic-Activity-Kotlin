@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.d(TAG, getString(R.string.main_activity_loaded))
+        Log.d(TAG, getString(R.string.main_activity_loaded_label))
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
-        Log.d(TAG, "Create options menu loaded.")
+        Log.d(TAG, getString(R.string.create_options_menu_label))
         return true
     }
 
