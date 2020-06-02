@@ -17,6 +17,7 @@ class SecondFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        Log.d(TAG, "Second Fragment loaded.")
         return inflater.inflate(R.layout.fragment_second, container, false)
     }
 
