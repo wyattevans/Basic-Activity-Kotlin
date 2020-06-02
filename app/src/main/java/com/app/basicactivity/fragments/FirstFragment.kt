@@ -17,7 +17,7 @@ class FirstFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        Log.d(TAG, "First Fragment loaded.")
+        Log.d(TAG, getString(R.string.first_fragment_loaded))
         return inflater.inflate(R.layout.fragment_first, container, false)
     }
 

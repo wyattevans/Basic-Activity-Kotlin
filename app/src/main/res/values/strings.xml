@@ -16,4 +16,5 @@
     <string name="main_activity_loaded_label">Main Activity loaded.</string>
     <string name="create_options_menu_label">Create options menu loaded.</string>
     <string name="options_item_selected_initiated">Options item selected initiated.</string>
+    <string name="first_fragment_loaded">First Fragment loaded.</string>
 </resources>
