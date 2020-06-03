@@ -11,13 +11,13 @@ import androidx.navigation.fragment.findNavController
 import com.app.basicactivity.R
 
 class SecondFragment : Fragment() {
-    private val sTAG = this::class.java.simpleName
+    private val simpleTag = this::class.java.simpleName
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        Log.d(sTAG, getString(R.string.second_fragment_loaded))
+        Log.d(simpleTag, getString(R.string.second_fragment_loaded))
         return inflater.inflate(R.layout.fragment_second, container, false)
     }
 
@@ -25,7 +25,7 @@ class SecondFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         view.findViewById<Button>(R.id.button_second).setOnClickListener {
-            Log.d(sTAG, getString(R.string.previous_button_label))
+            Log.d(simpleTag, getString(R.string.previous_button_label))
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
         }
     }
