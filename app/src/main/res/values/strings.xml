@@ -11,9 +11,9 @@
     <string name="hello_second_fragment">Hello second fragment</string>
     <string name="action_label">Replace with your own action</string>
     <string name="action_hint">Action</string>
-    <string name="next_button_label">Next button clicked.</string>
-    <string name="previous_button_label">Previous button clicked.</string>
-    <string name="main_activity_loaded_label">Main Activity loaded.</string>
+    <string name="next_button_label">Next button clicked</string>
+    <string name="previous_button_label">Previous button clicked</string>
+    <string name="main_activity_loaded_label">Main Activity loaded</string>
     <string name="create_options_menu_label">Create options menu loaded.</string>
     <string name="options_item_selected_initiated">Options item selected initiated</string>
     <string name="first_fragment_loaded">First Fragment loaded</string>
